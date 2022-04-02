@@ -16,7 +16,6 @@ export class Clock extends React.Component {
     render(){
         return (
             <>
-                <form onSubmit={()=>{}}/>
                 <div>
                     <div>
                         hi!!!
