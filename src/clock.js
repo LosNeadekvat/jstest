@@ -11,7 +11,7 @@ export class Clock extends React.Component {
     componentWillUnmount() {
         clearInterval(this.timerID);
     }
-   tick = () => this.setState({date: new Date(), counter: this.state.counter+1});
+    tick = () => this.setState({date: new Date(), counter: this.state.counter+1});
 
     render(){
         return (
