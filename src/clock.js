@@ -12,10 +12,13 @@ export class Clock extends React.Component {
         clearInterval(this.timerID);
     }
     tick = () => this.setState({date: new Date(), counter: this.state.counter+1});
-
+    onpress = () => alert ('ALARM!')
     render(){
         return (
             <>
+                <form onSubmit={this.onpress}>
+                    <input type={'submit'} value = {'press'}/>
+                </form>
                 <div>
                     <div>
                         hi!!!
