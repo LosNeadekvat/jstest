@@ -18,6 +18,9 @@ export class Clock extends React.Component {
             <>
                 <form onSubmit={()=>{}}/>
                 <div>
+                    <div>
+                        hi!!!
+                    </div>
                     <h1>Hello, world!{this.state.counter}</h1>
                     <Dial date={this.state.date}/>
                 </div>
